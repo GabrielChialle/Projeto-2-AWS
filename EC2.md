@@ -46,3 +46,26 @@ Nesta etapa vamos criar a primeira instância EC2 para testes, que futuramente p
 
   ```bash
   ssh -i "minha-chave.pem" ubuntu@<Public-IP>
+
+### 6. Storage
+Manter o padrão de **8 GB (gp2 ou gp3)**.
+
+---
+
+### 7. User Data (opcional)
+Em **Advanced details → User data**, é possível adicionar um script de inicialização  
+(por exemplo, instalar Apache ou Nginx automaticamente).
+
+> ℹ️ Nesta documentação não incluímos o script, mas pode ser adicionado futuramente.
+
+---
+
+### 8. Launch
+Clique em **Launch instance**.  
+Acompanhe em **EC2 → Instances** até o status mudar para *running*.
+
+---
+
+📌 **Resultado esperado**  
+Ao final, você terá uma instância **EC2 rodando no Ubuntu**, acessível pela internet (via IP público), protegida pelo **SG-EC2**, pronta para receber configuração manual ou via *User Data*.
+
