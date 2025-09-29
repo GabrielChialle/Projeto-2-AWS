@@ -1,5 +1,3 @@
----
-
 ## 🔐 Passo 2 — Criar Security Groups (SG)
 
 Nesta etapa, vamos configurar os **grupos de segurança** que funcionam como firewall virtual da VPC, controlando o tráfego de entrada e saída dos recursos.
@@ -27,7 +25,7 @@ Nesta etapa, vamos configurar os **grupos de segurança** que funcionam como fir
 | CostCenter | C092000024    |
 | Project    | PB - JUL 2025 |
 
-✅ Clique em **Create**.
+Clique em **Create**.
 
 ---
 
@@ -46,7 +44,7 @@ Nesta etapa, vamos configurar os **grupos de segurança** que funcionam como fir
 
 **Tags:** iguais ao anterior.
 
-✅ Criar.
+Criar.
 
 ---
 
@@ -64,7 +62,7 @@ Nesta etapa, vamos configurar os **grupos de segurança** que funcionam como fir
 
 **Tags:** iguais ao anterior.
 
-✅ Criar.
+Criar.
 
 ---
 
@@ -82,13 +80,13 @@ Nesta etapa, vamos configurar os **grupos de segurança** que funcionam como fir
 
 **Tags:** iguais ao anterior.
 
-✅ Criar.
+Criar.
 
 ---
 
-### 📌 Resultado esperado
+### 📌 Resultado
 
-Agora você terá **4 Security Groups criados e organizados**:
+Agora você terá **4 Security Groups criados**:
 
 - **SG-ALB** → aberto para internet  
 - **SG-EC2** → só recebe tráfego do ALB  
