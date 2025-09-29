@@ -18,7 +18,7 @@
 - **Number of Availability Zones (AZs)** → `2`
 - **Number of public subnets** → `2`
 - **Number of private subnets** → `4`
-- **NAT gateways** → `1 NAT Gateway (mais barato)`
+- **NAT gateways** → `1 NAT Gateway por AZ.
 - **VPC endpoints** → `None`
 
 ### 5. Tags obrigatórias
@@ -28,30 +28,14 @@ No final do formulário, em **Tags**, adicione:
 |-------------|-------------------|
 | Name        | PB - JUL 2025     |
 | CostCenter  | C092000024        |
-| Project     | PB - JUL 2025VPC and more |
+| Project     | PB - JUL 2025     |
 
 ### 6. Criar a VPC
 - Clique em **Create VPC**.
 - Em alguns segundos a AWS cria:
   - VPC (rede principal)
-  - 2 subnets públicas (com internet)
-  - 4 subnets privadas (sem internet direta)
+  - 2 subnets públicas 
+  - 4 subnets privadas 
   - Internet Gateway
   - NAT Gateway
   - Route Tables configuradas automaticamente
-
----
-
-## 📌 Próximos Passos
-- Configurar **Security Groups**
-- Criar instâncias **EC2**
-- Criar banco de dados **RDS**
-- Configurar **EFS**
-- Configurar **Application Load Balancer (ALB)**
-
----
-
-## 🏷️ Tags do Projeto
-- **Name:** PB - JUL 2025
-- **CostCenter:** C092000024
-- **Project:** PB - JUL 2025VPC and more
