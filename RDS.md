@@ -1,6 +1,6 @@
 ---
 
-## 🛠️ Passo 4 — Criar RDS MySQL
+## 🛠️ Criar RDS MySQL
 
 Agora vamos criar o banco de dados MySQL no serviço **Amazon RDS**, que será utilizado pelo WordPress.
 
