@@ -1,6 +1,6 @@
 ---
 
-## 📂 Passo 5 — Criar EFS (Elastic File System)
+## 📂 Criar EFS (Elastic File System)
 
 O **Amazon EFS** será usado para armazenamento compartilhado entre as instâncias EC2, garantindo que o diretório `wp-content` do WordPress seja persistente e sincronizado.
 
