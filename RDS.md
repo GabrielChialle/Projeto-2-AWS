@@ -20,27 +20,27 @@ Agora vamos criar o banco de dados MySQL no serviço **Amazon RDS**, que será u
 ---
 
 ### 3. Modelos
-- Em **Templates**, selecione **Dev/Test**.  
+- Em **Templates**, selecione **Free Tier**.  
 
 ---
 
 ### 4. Configurações básicas
 - **Identificador da instância do banco de dados:** `pb-jul2025-rds`  
-- **Nome do usuário mestre:** `wpuser`  
-- **Senha mestre:** crie uma senha forte (exemplo: `Wp1234!Segura`)  
-- **Confirmar senha:** repita a senha  
-- *(Opcional)* Nome do banco de dados inicial: `wordpress`  
+- **Nome do usuário mestre:** **escolha seu user**  
+- **Senha mestre: crie uma senha forte**  
+- **Confirmar senha: repita a senha**  
+- *(Opcional)* Nome do banco de dados inicial:  
 
 ---
 
 ### 5. Tamanho da instância
-- **Classe da instância:** `db.t3g.micro` ⚠️ *(requisito do projeto)*  
+- **Classe da instância:** `db.t3.micro` 
 
 ---
 
 ### 6. Alta disponibilidade (Multi-AZ)
 - **Implantação Multi-AZ:** `Não criar instância em espera`  
-⚠️ Multi-AZ deve ficar **desativado** no projeto.  
+ Multi-AZ deve ficar **desativado** no projeto.  
 
 ---
 
@@ -61,7 +61,7 @@ Agora vamos criar o banco de dados MySQL no serviço **Amazon RDS**, que será u
 ---
 
 ### 9. Configurações adicionais
-- **Nome do banco inicial:** `wordpress` (caso não tenha colocado antes)  
+- **Nome do banco inicial:** `wordpress` (mas no caso o que escolheu)  
 - **Período de retenção de backup:** `1 dia`  
 - **Proteção contra exclusão:** desmarcar  
 
@@ -81,10 +81,3 @@ Adicionar as **3 tags obrigatórias**:
 ### 11. Criar
 - Clique em **Criar banco de dados**.  
 - O status ficará **Criando** → aguarde até aparecer **Disponível** (5 a 10 minutos).  
-
----
-
-### 12. Pegar o endpoint
-- Clique no banco criado.  
-- Na aba **Conectividade e segurança**, copie o **Endpoint**  
-  Exemplo:  
