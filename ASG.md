@@ -36,20 +36,15 @@ Defina a capacidade do grupo:
 
 ---
 
-### Passo 6 — Scaling policies (opcional)
-Você pode deixar **None** (manual) ou configurar:  
-- **Target tracking policy**  
-  - Exemplo: Manter CPU em 50%  
-  - Minimum: 1, Maximum: 3  
+### 6. Verificações de integridade
+
+- Marcar: `Ative as verificações de integridade do Elastic Load Balancing`
+- Health check grace period: manter `300` segundos
+- Clique em **Avançar**
 
 ---
 
-### Passo 7 — Notifications (opcional)
-Pode deixar em branco (não obrigatório para o projeto).  
-
----
-
-### Passo 8 — Tags
+### Passo 7 — Tags
 Adicione as tags obrigatórias:  
 - **Name** = `PB - JUL 2025`  
 - **CostCenter** = `C092000024`  
@@ -57,7 +52,7 @@ Adicione as tags obrigatórias:
 
 ---
 
-### Passo 9 — Criar
+### Passo 8 — Criar
 Clique em **Create Auto Scaling group**.  
 
 ---
