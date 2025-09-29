@@ -1,4 +1,4 @@
-## 🚀 Passo 1 — Criar a VPC (rede)
+## 🚀 PCriar a VPC (rede)
 
 ### 1. Acessar o Console AWS
 - Entrar em [console.aws.amazon.com](https://console.aws.amazon.com).
