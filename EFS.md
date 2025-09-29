@@ -50,10 +50,3 @@ Adicionar as **tags obrigatórias**:
 ### 7. Criar
 - Clique em **Criar**.  
 - Aguarde alguns minutos até o status mudar para **Disponível**.  
-
----
-
-### 8. Pegar o DNS do EFS
-- Após criado, clique no seu **EFS**.  
-- Vá em **Rede → Pontos de montagem**.  
-- Copie o **DNS do EFS** (exemplo):  
