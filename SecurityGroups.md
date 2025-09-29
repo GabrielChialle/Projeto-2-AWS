@@ -1,4 +1,4 @@
-## 🔐 Passo 2 — Criar Security Groups (SG)
+## 🔐 Criar Security Groups (SG)
 
 Nesta etapa, vamos configurar os **grupos de segurança** que funcionam como firewall virtual da VPC, controlando o tráfego de entrada e saída dos recursos.
 
