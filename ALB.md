@@ -55,5 +55,4 @@ Revise as configurações e clique em **Create load balancer**.
 📌 **Resultado esperado**  
 - ALB criado (`pb-jul2025-alb`), público, acessível na porta 80.  
 - Target Group (`pb-jul2025-tg`) configurado com health checks.  
-- Nenhuma instância ainda → serão registradas via Auto Scaling Group.  
-- Ao final, você terá um **DNS público do ALB** (ex.: `pb-jul2025-alb-123456.sa-east-1.elb.amazonaws.com`).  
+- Ao final, você terá um **DNS público do ALB**   
